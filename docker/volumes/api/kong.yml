@@ -8,10 +8,10 @@ consumers:
   - username: DASHBOARD
   - username: anon
     keyauth_credentials:
-      - key: $SUPABASE_ANON_KEY
+      - key: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.ewogICJyb2xlIjogImFub24iLAogICJpc3MiOiAic3VwYWJhc2UiLAogICJpYXQiOiAxNzQxMjQ4MDAwLAogICJleHAiOiAxODk5MDE0NDAwCn0.pOE5VIapUJashlYgDmXEgm4KrHGRKjfXAMJOYne2nSg
   - username: service_role
     keyauth_credentials:
-      - key: $SUPABASE_SERVICE_KEY
+      - key: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.ewogICJyb2xlIjogInNlcnZpY2Vfcm9sZSIsCiAgImlzcyI6ICJzdXBhYmFzZSIsCiAgImlhdCI6IDE3NDEyNDgwMDAsCiAgImV4cCI6IDE4OTkwMTQ0MDAKfQ.CGpcOMzmP6NauwDfxV2s3MYslZAq0ERae1uJwJHrqv4
 
 ###
 ### Access Control List
@@ -27,8 +27,8 @@ acls:
 ###
 basicauth_credentials:
   - consumer: DASHBOARD
-    username: $DASHBOARD_USERNAME
-    password: $DASHBOARD_PASSWORD
+    username: supabase
+    password: password_123
 
 ###
 ### API Routes
