@@ -13,3 +13,4 @@ COMMENT ON TABLE public.new_test_3 IS 'A test table for demonstration purposes';
 INSERT INTO public.new_test_3 (name, description) VALUES
   ('Test Item 1', 'This is a test item'),
   ('Test Item 2', 'This is another test item');
+  ('Test Item 3', 'This is another another test item');
